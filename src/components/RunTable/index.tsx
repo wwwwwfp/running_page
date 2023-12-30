@@ -49,11 +49,11 @@ const RunTable = ({
   const sortDateFuncClick =
     sortFuncInfo === 'Date' ? sortDateFunc : sortDateFuncReverse;
   const sortFuncMap = new Map([
-    ['KM', sortKMFunc],
-    ['Pace', sortPaceFunc],
-    ['BPM', sortBPMFunc],
-    ['Time', sortRunTimeFunc],
-    ['Date', sortDateFuncClick],
+    ['公里', sortKMFunc],
+    ['配速', sortPaceFunc],
+    ['心率', sortBPMFunc],
+    ['时长', sortRunTimeFunc],
+    ['开始时间', sortDateFuncClick],
   ]);
 
   const handleClick: React.MouseEventHandler<HTMLElement> = (e) => {
