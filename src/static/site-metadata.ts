@@ -10,9 +10,9 @@ interface ISiteMetadataResult {
 }
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'Running Page',
+  siteTitle: 'Running',
   siteUrl: 'https://run.5iwork.com',
-  logo: 'https://github.com/wwwwwfp/running_page/blob/master/src/images/head.jpg',
+  logo: 'https://github.com/wwwwwfp/running_page/blob/master/src/images/head.png',
   description: 'Personal site and blog',
   navLinks: [
     {
