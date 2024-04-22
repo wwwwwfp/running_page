@@ -20,6 +20,10 @@ const data: ISiteMetadataResult = {
       url: 'https://blog.5iwork.com',
     },
     {
+      name: 'Tools',
+      url: 'https://it.5iwork.com',
+    },
+    {
       name: 'Domain',
       url: 'http://domain.5iwork.com/',
     },
