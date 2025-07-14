@@ -69,7 +69,7 @@ const YearStat = ({
         <Stat value={runs.length} description=" 次数" />
         <Stat value={sumDistance} description=" 公里" />
         {SHOW_ELEVATION_GAIN && (
-          <Stat value={sumElevationGain} description=" 海拔高度" />
+          <Stat value={sumElevationGain} description=" 海拔爬升" />
         )}
         <Stat value={avgPace} description=" 平均配速" />
         <Stat value={`${streak}`} description=" 连续天数" />

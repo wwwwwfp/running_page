@@ -9,7 +9,7 @@ const MUNICIPALITY_CITIES_ARR = [
   '上海市',
   '天津市',
   '重庆市',
-  '香港特别行政区, 中国',
+  '香港特别行政区',
   '澳门特别行政区',
 ];
 const MAP_LAYER_LIST = [
