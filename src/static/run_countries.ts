@@ -3200,7 +3200,7 @@ export const chinaGeojson: FeatureCollection<RPGeometry> = {
       properties: {
         id: '81',
         size: '18000',
-        name: '香港特别行政区',
+        name: '香港特别行政区, 中国',
         cp: [114.1178, 22.3242],
         childNum: 1,
         color: MAIN_COLOR,
