@@ -55,12 +55,12 @@ const RunTable = ({
   const sortDateFuncClick =
     sortFuncInfo === 'Date' ? sortDateFunc : sortDateFuncReverse;
   const sortFuncMap = new Map([
-    ['KM', sortKMFunc],
-    ['Elevation Gain', sortElevationGainFunc],
-    ['Pace', sortPaceFunc],
-    ['BPM', sortBPMFunc],
-    ['Time', sortRunTimeFunc],
-    ['Date', sortDateFuncClick],
+    ['公里', sortKMFunc],
+    ['海拔', sortElevationGainFunc],
+    ['配速', sortPaceFunc],
+    ['心率', sortBPMFunc],
+    ['耗时', sortRunTimeFunc],
+    ['开始时间', sortDateFuncClick],
   ]);
   if (!SHOW_ELEVATION_GAIN) {
     sortFuncMap.delete('Elevation Gain');
