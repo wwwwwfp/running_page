@@ -56,7 +56,6 @@ const RunTable = ({
     sortFuncInfo === 'Date' ? sortDateFunc : sortDateFuncReverse;
   const sortFuncMap = new Map([
     ['公里', sortKMFunc],
-    ['海拔', sortElevationGainFunc],
     ['配速', sortPaceFunc],
     ['心率', sortBPMFunc],
     ['耗时', sortRunTimeFunc],
